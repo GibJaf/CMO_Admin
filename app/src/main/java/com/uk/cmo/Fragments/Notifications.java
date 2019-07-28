@@ -36,9 +36,6 @@ import java.util.Map;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * Created by usman on 15-08-2018.
- */
 
 public class Notifications extends Fragment {
 	

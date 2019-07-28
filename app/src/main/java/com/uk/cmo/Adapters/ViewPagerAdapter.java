@@ -10,9 +10,6 @@ import com.uk.cmo.Fragments.Members;
 import com.uk.cmo.Fragments.Notifications;
 import com.uk.cmo.Fragments.Posts;
 
-/**
- * Created by usman on 22-02-2018.
- */
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
     Fragment fragment;
