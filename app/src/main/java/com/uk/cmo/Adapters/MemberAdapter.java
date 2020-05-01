@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 import com.uk.cmo.Model.Person;
@@ -47,6 +48,7 @@ public class MemberAdapter extends RecyclerView.Adapter<MemberAdapter.ViewHolder
                 .networkPolicy(NetworkPolicy.OFFLINE)
                 .placeholder(R.drawable.profile)
                 .into(holder.profile_pic);
+
 
     }
 

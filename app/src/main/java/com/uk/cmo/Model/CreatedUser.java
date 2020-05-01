@@ -13,6 +13,7 @@ public class CreatedUser {
 
     public CreatedUser() {
 
+
     }
 
     public String getToken() {
